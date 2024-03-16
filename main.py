@@ -36,7 +36,9 @@ for index, row in df.iterrows():
         pdf.cell(w=0, h=12, txt=f"{row['Topic']}", align="L", ln=1)
 
         # Draw a line under the topic title
-        pdf.line(10, 21, 200, 21)
+
+        for y in range(21, 281, 10):
+            pdf.line(10, y, 200, y)
 
         # Move the cursor down to where the footer will be
         pdf.ln(258)
