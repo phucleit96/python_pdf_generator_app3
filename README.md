@@ -2,7 +2,7 @@
 
 This project is a Python script that generates a PDF document with a table of contents (at the end, "output.txt"). The PDF document is created from a CSV file that contains a list of topics and the number of pages for each topic ("topics.csv").
 
-[DEMO](https://i.imgur.com/u6NEDjx.gif)
+![DEMO](https://i.imgur.com/u6NEDjx.gif)
 ## Features
 
 - Generates a PDF document with a table of contents.
